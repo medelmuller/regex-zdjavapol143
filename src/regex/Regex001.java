@@ -1,7 +1,5 @@
 package regex;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 /*
 Napisz Regex, który sprawdza polskie numery telefonów komórkowych,
 zaczynające się cyfrą 5.
