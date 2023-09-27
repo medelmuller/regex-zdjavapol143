@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="358fd8ec-54eb-4484-9ece-87ec829a7a24" name="Changes" comment="Added test for Printf">
-      <change afterPath="$PROJECT_DIR$/src/regex/RegexExample2.java" afterDir="false" />
+    <list default="true" id="358fd8ec-54eb-4484-9ece-87ec829a7a24" name="Changes" comment="Added Regex005">
+      <change afterPath="$PROJECT_DIR$/src/Problem022.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RegexExample2">
+  <component name="RunManager" selected="Application.Problem022">
     <configuration name="BigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examples.BigDecimalTest" />
       <module name="Regex_Repo" />
@@ -55,21 +55,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Regex003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="regex.Regex003" />
+    <configuration name="Problem022" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem022" />
       <module name="Regex_Repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="regex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="regex.RegexExample" />
+    <configuration name="Regex003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="regex.Regex003" />
       <module name="Regex_Repo" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem022" />
         <item itemvalue="Application.RegexExample2" />
         <item itemvalue="Application.BigDecimalTest" />
         <item itemvalue="Application.RegexReplaceSplit" />
         <item itemvalue="Application.Regex003" />
-        <item itemvalue="Application.RegexExample" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +216,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695830879205</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added RegexExample2">
+      <option name="closed" value="true" />
+      <created>1695831982847</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695831982847</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Regex005">
+      <option name="closed" value="true" />
+      <created>1695832449295</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695832449295</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +259,8 @@
     <MESSAGE value="Added Regex004" />
     <MESSAGE value="Added test for BigDecimals" />
     <MESSAGE value="Added test for Printf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test for Printf" />
+    <MESSAGE value="Added RegexExample2" />
+    <MESSAGE value="Added Regex005" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Regex005" />
   </component>
 </project>
