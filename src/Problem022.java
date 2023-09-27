@@ -19,7 +19,7 @@ Character.isUpperCase(currentCharacter)
     private static String encrypt(String text, int key){
         //text = text.toUpperCase(); --> żeby program działa też na małych literach
         // bo w shiftedCharacter jest zakres do dużych liter ASCI
-        String encrypted = ""; //StringBuilder
+        String encrypted = ""; //ew. StringBuilder
 
         for (int i = 0; i < text.length(); i++) {
             char currentChar = text.charAt(i);
@@ -55,8 +55,9 @@ Character.isUpperCase(currentCharacter)
             charShifted -= 26;
         }
         return charShifted;
-
-         */ //poniżej wersja z modulo
+        poniżej wersja z modulo
+         */
+// chuj wie czemu nie działa
         int characterIndex = character - 65;
         // int characterIndex = character - 'A';
         int charShifted = (characterIndex + key) % 26 + 65;

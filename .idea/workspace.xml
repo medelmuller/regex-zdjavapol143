@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="358fd8ec-54eb-4484-9ece-87ec829a7a24" name="Changes" comment="Added Regex005">
-      <change afterPath="$PROJECT_DIR$/src/Problem022.java" afterDir="false" />
+    <list default="true" id="358fd8ec-54eb-4484-9ece-87ec829a7a24" name="Changes" comment="Added Problem022">
+      <change afterPath="$PROJECT_DIR$/src/com/sda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/literature/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/literature/Poem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sda/literature/TestInPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/literature/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/sda/literature/Poem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem022.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem022.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +48,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Problem022">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examples.BigDecimalTest" />
       <module name="Regex_Repo" />
@@ -55,22 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem022" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem022" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.Main" />
       <module name="Regex_Repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Regex003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="regex.Regex003" />
+    <configuration name="Problem022" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem022" />
       <module name="Regex_Repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="regex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Problem022" />
         <item itemvalue="Application.RegexExample2" />
         <item itemvalue="Application.BigDecimalTest" />
         <item itemvalue="Application.RegexReplaceSplit" />
-        <item itemvalue="Application.Regex003" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695832449295</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added Problem022">
+      <option name="closed" value="true" />
+      <created>1695837739515</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695837739515</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +276,7 @@
     <MESSAGE value="Added test for Printf" />
     <MESSAGE value="Added RegexExample2" />
     <MESSAGE value="Added Regex005" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Regex005" />
+    <MESSAGE value="Added Problem022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Problem022" />
   </component>
 </project>
